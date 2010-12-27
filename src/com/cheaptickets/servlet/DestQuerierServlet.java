@@ -40,7 +40,7 @@ public class DestQuerierServlet extends HttpServlet {
 		queryReqObj.setAirportName(sourcePort);
 		
 		java.io.PrintWriter output = response.getWriter();
-		
+		//Dummy Comments
 		QueryTicketsFromKayak queryObj = new QueryTicketsFromKayak();
 		
 		List<String> outputPrint = queryObj.getCurrentTicketCosts(queryReqObj);
